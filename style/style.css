@@ -1,0 +1,107 @@
+body{
+    margin: 0px;
+
+}
+
+.nav-container{
+    position: sticky;
+    z-index: 3;
+    top: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+    background-color: olivedrab;
+}
+
+.navbar-logo{
+    justify-self: start;
+    margin-left: 20px;
+    color: whitesmoke;
+    margin-top: 4vh;
+    cursor: pointer;
+}
+
+.ver-carrito{
+    font-size: 25px;
+    margin-right: 20px;
+    margin-top: 3.5vh;
+    cursor: pointer;
+}
+
+.banner{
+    background-position: center;
+    height: 100vh;
+    background-image: url("https://i.pinimg.com/originals/c7/fe/b6/c7feb6ae80060c5c300543a7dea22f5f.jpg")
+    }
+
+.fondo{
+    background-size: cover;
+}
+
+.banner-container{
+    text-align: center;
+    padding: 15% 0 ;
+}
+
+.banner h1{
+    margin:0;
+    color: black;
+    text-shadow: 1px 1px 3px whitesmoke;
+    font-size: 62px;
+    font-weight: bold;
+}
+
+.banner p{
+    font-size: 30px;
+    color: olivedrab;
+    opacity: 0.7;
+    text-shadow: 1px 1px 3px whitesmoke ;
+
+}
+
+.shop-content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 black;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.card > img{
+    width: 90%;
+    height: 250px;
+
+}
+
+.price{
+    color:olivedrab;
+    font-size: 22px;
+}
+
+.card button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: whitesmoke;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover{
+    opacity:0.7;
+}
